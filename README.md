@@ -2,6 +2,11 @@
  
 - [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)で撮影した[動画](https://github.com/code4fukui/fukui-sea)を公開
 
+## 利用例
+
+- [ドローンから見たハマグリ放流 - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=3mJN0zf1jtI)
+- [みんなでごみひろい - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=eOCDVu7WQ2c)
+
 ## ライセンス
 
 - [CC BY](https://creativecommons.org/licenses/by/4.0/deed.ja) のオープンデータです ([CC BYとは？](https://fukuno.jig.jp/216))
