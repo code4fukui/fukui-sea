@@ -1,4 +1,4 @@
-# fukui-sea
+# 福井の海オープンデータ
  
 - [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)で撮影した[動画](https://github.com/code4fukui/fukui-sea)を公開
 
