@@ -4,8 +4,8 @@
 
 ## ライセンス
 
-- CC BY のオープンデータです
-- 撮影 [Code for FUKUI](https://code4fukui.github.io/) とクレジットをどこかに記載ください
+- [CC BY](https://creativecommons.org/licenses/by/4.0/deed.ja) のオープンデータです ([CC BYとは？](https://fukuno.jig.jp/216))
+- 撮影 [Code for FUKUI](https://code4fukui.github.io/) とクレジットをどこかに記載いただけば、編集、加工など自由にご利用いただけます
 
 ## 動画分割
 
