@@ -1,6 +1,6 @@
 # fukui-sea
  
-- [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)での動画を公開
+- [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)での[動画](https://github.com/code4fukui/fukui-sea)を公開
 
 ## ライセンス
 
