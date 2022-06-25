@@ -1,11 +1,12 @@
 # 福井の海オープンデータ
  
-- [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)で撮影した[動画](https://github.com/code4fukui/fukui-sea)を公開
+- [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)で撮影した[動画、写真](https://github.com/code4fukui/fukui-sea)を公開
 
 ## 利用例
 
 - [ドローンから見たハマグリ放流 - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=3mJN0zf1jtI)
 - [みんなでごみひろい - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=eOCDVu7WQ2c)
+- [360度見渡せる浜地の海 - VRふくい](https://code4fukui.github.io/vr-fukui/vr-view.html#img/vr-hamachi.jpg)
 
 ## ライセンス
 
