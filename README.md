@@ -13,3 +13,7 @@
 ```
 ffmpeg -i $1.MP4 -c copy -f segment -segment_time 20 -reset_timestamps 1 $1_%02d.MP4
 ```
+
+## Code for FUKUI
+
+[Code for FUKUI](https://code4fukui.github.io/)は、「地域の課題をテクノロジーで解決する」シビックテック活動を行う団体です
