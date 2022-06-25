@@ -1,6 +1,11 @@
 # fukui-sea
  
-- [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)での動画を公開 (CC BY のオープンデータです、撮影 [Code for FUKUI](https://code4fukui.github.io/) とクレジットをどこかに記載ください）
+- [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)での動画を公開
+
+## ライセンス
+
+- CC BY のオープンデータです
+- 撮影 [Code for FUKUI](https://code4fukui.github.io/) とクレジットをどこかに記載ください
 
 ## 動画分割
 
