@@ -7,6 +7,7 @@
 - [ドローンから見たハマグリ放流 - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=3mJN0zf1jtI)
 - [みんなでごみひろい - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=eOCDVu7WQ2c)
 - [360度見渡せる浜地の海 - VRふくい](https://code4fukui.github.io/vr-fukui/vr-view.html#img/vr-hamachi.jpg)
+- [「 #トヨタソーシャルフェス 」という #海水浴場 の #ゴミ拾い とハマグリの稚貝放流をしてきました！ - ネッツトヨタ福井](https://www.facebook.com/netzfukui/videos/742941223796958/)
 
 ## ライセンス
 
