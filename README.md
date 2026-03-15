@@ -1,5 +1,7 @@
 # fukui-sea
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 This project publishes videos and photos taken at the Toyota Social Fest 2022 in Fukui, Japan.
 
 ## Demo
