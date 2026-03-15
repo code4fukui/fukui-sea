@@ -1,26 +1,31 @@
-# 福井の海オープンデータ
- 
-- [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)で撮影した[動画、写真](https://github.com/code4fukui/fukui-sea)を公開
+# fukui-sea
 
-## 利用例
+This project publishes videos and photos taken at the Toyota Social Fest 2022 in Fukui, Japan.
 
-- [ドローンから見たハマグリ放流 - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=3mJN0zf1jtI)
-- [みんなでごみひろい - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=eOCDVu7WQ2c)
-- [360度見渡せる浜地の海 - VRふくい](https://code4fukui.github.io/vr-fukui/vr-view.html#img/vr-hamachi.jpg)
-- [「 #トヨタソーシャルフェス 」という #海水浴場 の #ゴミ拾い とハマグリの稚貝放流をしてきました！ - ネッツトヨタ福井](https://www.facebook.com/netzfukui/videos/742941223796958/)
+## Demo
 
-## ライセンス
+- [Drone footage of clam release - Toyota Social Fest 2022 Fukui - YouTube](https://www.youtube.com/watch?v=3mJN0zf1jtI)
+- [Community beach cleanup - Toyota Social Fest 2022 Fukui - YouTube](https://www.youtube.com/watch?v=eOCDVu7WQ2c)
+- [360-degree view of the beach - VR Fukui](https://code4fukui.github.io/vr-fukui/vr-view.html#img/vr-hamachi.jpg)
+- [We did a #beach cleanup and clam seeding at the #ToyotaSocialFest! - Netz Toyota Fukui](https://www.facebook.com/netzfukui/videos/742941223796958/)
 
-- [CC BY](https://creativecommons.org/licenses/by/4.0/deed.ja) のオープンデータです ([CC BYとは？](https://fukuno.jig.jp/216))
-- 撮影 [Code for FUKUI](https://code4fukui.github.io/) とクレジットをどこかに記載いただけば、編集、加工など自由にご利用いただけます
+## Features
 
-## 動画分割プログラム
+- Open data under [CC BY](https://creativecommons.org/licenses/by/4.0/deed.en) license
+- Footage and photos taken by [Code for FUKUI](https://code4fukui.github.io/)
 
-容量100MB以下にするため、20秒単位で分割する ffmpeg を使ったシェルスクリプト [seg20.sh](seg20.sh)
+## Usage
+
+The repository includes a shell script `seg20.sh` that uses `ffmpeg` to split videos into 20-second segments:
+
 ```
 ffmpeg -i $1.MP4 -c copy -f segment -segment_time 20 -reset_timestamps 1 $1_%02d.MP4
 ```
 
 ## Code for FUKUI
 
-[Code for FUKUI](https://code4fukui.github.io/)（コードフォーフクイ）は、「地域の課題をテクノロジーで解決する」シビックテック活動を行う団体です
+[Code for FUKUI](https://code4fukui.github.io/) is a civic tech community that aims to solve local issues using technology.
+
+## License
+
+This is an open dataset under the [CC BY](https://creativecommons.org/licenses/by/4.0/deed.en) license. You are free to use, edit, and distribute the content as long as you provide attribution to Code for FUKUI.
