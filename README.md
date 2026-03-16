@@ -30,4 +30,4 @@ ffmpeg -i $1.MP4 -c copy -f segment -segment_time 20 -reset_timestamps 1 $1_%02d
 
 ## License
 
-This is an open dataset under the [CC BY](https://creativecommons.org/licenses/by/4.0/deed.en) license. You are free to use, edit, and distribute the content as long as you provide attribution to Code for FUKUI.
+MIT License — see [LICENSE](LICENSE).
