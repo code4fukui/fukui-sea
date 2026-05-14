@@ -1,26 +1,49 @@
-# 福井の海オープンデータ
- 
-- [トヨタソーシャルフェス2022福井](https://toyotafes.jp/projects/463/)で撮影した[動画、写真](https://github.com/code4fukui/fukui-sea)を公開
+# Fukui Sea Open Data
 
-## 利用例
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-- [ドローンから見たハマグリ放流 - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=3mJN0zf1jtI)
-- [みんなでごみひろい - トヨタソーシャルフェス2022福井 - YouTube](https://www.youtube.com/watch?v=eOCDVu7WQ2c)
-- [360度見渡せる浜地の海 - VRふくい](https://code4fukui.github.io/vr-fukui/vr-view.html#img/vr-hamachi.jpg)
-- [「 #トヨタソーシャルフェス 」という #海水浴場 の #ゴミ拾い とハマグリの稚貝放流をしてきました！ - ネッツトヨタ福井](https://www.facebook.com/netzfukui/videos/742941223796958/)
+This repository contains open-source videos and photos from the **Toyota Social Fest 2022** in Fukui, Japan. The media captures coastal conservation efforts, including a community beach cleanup and a clam seeding event, and is free for anyone to use and remix.
 
-## ライセンス
+## Media Highlights
 
-- [CC BY](https://creativecommons.org/licenses/by/4.0/deed.ja) のオープンデータです ([CC BYとは？](https://fukuno.jig.jp/216))
-- 撮影 [Code for FUKUI](https://code4fukui.github.io/) とクレジットをどこかに記載いただけば、編集、加工など自由にご利用いただけます
+- [Drone footage of clam release](https://www.youtube.com/watch?v=3mJN0zf1jtI) (YouTube)
+- [Community beach cleanup](https://www.youtube.com/watch?v=eOCDVu7WQ2c) (YouTube)
+- [360-degree view of the beach](https://code4fukui.github.io/vr-fukui/vr-view.html#img/vr-hamachi.jpg) (VR Fukui)
+- [Event summary by Netz Toyota Fukui](https://www.facebook.com/netzfukui/videos/742941223796958/) (Facebook)
 
-## 動画分割プログラム
+## About the Data
 
-容量100MB以下にするため、20秒単位で分割する ffmpeg を使ったシェルスクリプト [seg20.sh](seg20.sh)
+- **Content**: Raw drone footage, photos, and 360-degree images of the event and the Hamaji Beach area.
+- **Source**: All media was captured by [Code for FUKUI](https://code4fukui.github.io/).
+- **License**: The media is open data, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## Video Processing Scripts
+
+This repository includes simple shell scripts to split large video files into 20-second segments, which is useful for creating clips for web or social media use.
+
+**Prerequisite:** You must have [FFmpeg](https://ffmpeg.org/) installed on your system.
+
+### Usage
+
+Run the scripts from your terminal, providing the video filename *without* the extension.
+
+**To split a `.MP4` file:**
+```bash
+./seg20.sh your_video_filename
 ```
-ffmpeg -i $1.MP4 -c copy -f segment -segment_time 20 -reset_timestamps 1 $1_%02d.MP4
+
+**To split a `.mov` file:**
+```bash
+./seg20mov.sh your_video_filename
 ```
 
-## Code for FUKUI
+## About Code for FUKUI
 
-[Code for FUKUI](https://code4fukui.github.io/)（コードフォーフクイ）は、「地域の課題をテクノロジーで解決する」シビックテック活動を行う団体です
+[Code for FUKUI](https://code4fukui.github.io/) is a civic tech community that aims to solve local challenges using technology.
+
+## License
+
+This project is dual-licensed:
+
+- **📸 Media (Videos & Photos):** Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please attribute **"Code for FUKUI"** when using.
+- **💻 Code (Scripts):** Licensed under the [MIT License](LICENSE).
